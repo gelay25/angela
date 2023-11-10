@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-image: url(img/mountain.jpg);
+}
+.header {
+    background-color: rgb(131, 200, 249);
+    height: 90px;
+}
+.navbar{
+    background-color: rgb(70, 127, 151);
+    padding: 2px;
+    box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.75);
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    width: 120px;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+}
+.navbar a:hover{
+   text-decoration: underline;
+    color: white;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropbtn a{
+    color: black;
+    margin-left: 6px;
+    text-align: center;
+    padding: 14px 16px;
+    width: 120px;
+    background-color: white;
+}
+.dropbtn:hover{
+    color: black;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+.dropdown-content a{
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 100px;
+    color: black;
+}
+.dropdown-content a:hover{
+    color: black;
+}
+.dropdown:hover .dropdown-content{
+    display: block
+}
+.footer{
+    background-color: rgb(70, 127, 151);
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+.contact{
+    width: 450px;
+    background: rgba(0.5, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact h2{
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.contact p{
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.profile-img img{
+    margin-top: 40px;
+    border: solid 2px;
+    border-radius: 50%;
+    height: 150px;
+}
+.phone h3{
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.phone h3:hover{
+    text-decoration: underline;
+}
+  
